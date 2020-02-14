@@ -1,9 +1,11 @@
 import React from 'react';
+import Messages from './Messages'
 
 function App() {
   return (
     <main className='App'>
-      {/* content goes here */}
+      <Messages name="Messages" unread={0} />
+      <Messages name="Notifications" unread={10} />
     </main>
   );
 }
